@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investing</title>
+    <link rel="icon" type="image/x-icon" href="revenue.png">
+    <style>body{
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 30px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+    
+    nav ul {
+        display: flex;
+        gap: 50px;
+        list-style: none;
+       
+    }
+    
+    nav li{
+        text-decoration: none;
+        color: black;
+    }
+    
+    nav a{
+        text-decoration: none;
+    }
+    
+    #logoimg {
+        width: 50px;   
+        height: 50px; 
+    }
+    
+    #signinbtn{
+        border-radius: 30px;
+        border: 1px solid black;
+        width: 75px;
+        height: 30px;
+        background-color: white;
+        cursor: pointer;
+    }
+    
+    #signinbtn:hover{
+        background-color: rgb(224, 215, 215);
+    }
+    
+    #loginbtn{
+        border-radius: 30px;
+        border: 0;
+        width: 75px;
+        height: 30px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #loginbtn:hover{
+        background-color: rgb(58, 55, 55);
+    }
+    
+    #h1title{
+        font-family: Arial, sans-serif;
+        font-size: 9em;
+        font-weight: normal;
+    }
+    
+    .mainsec{
+    
+        margin-left: 50px;
+    
+    }
+    .mainsec h4{
+        font-size: 40px;
+        margin-top: -40px;
+        color:rgb(105, 104, 104);
+        font-weight: normal;
+    }
+    
+    .mainsec p{
+        margin-top: 40px;
+        color:gray;
+        font-size: 30px;
+    }
+    
+    .mainimg img{
+        max-width: 100%;
+        height: auto;
+        
+    }
+    
+    .mainimg{
+        max-width: 40%;
+        margin-right: 30px;
+        float: right;
+    }
+    
+    .mainbutton{
+        margin-top: 50px;
+    }
+    
+    .mainbutton button{
+        font-weight: bold;
+        font-size: 1em;
+        width: 10em;
+        height: 4em;
+        border-radius: 30px;
+        cursor: pointer;
+        background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+    }
+    
+    .mainbutton button:hover{
+        background: #f9c5d1;
+    
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <div style="float: left;">
+            <img id="logoimg" src="revenue.png" alt="">
+        </div>
+
+        <div>
+            <ul>
+               <a href="#howitworks"><li>How it Works</li></a> 
+                <a href="#payment"><li>Payment</li></a>
+                <a href="#help"><li>Help</li></a>
+                <a href="#blog"><li>Blog</li></a>
+            </ul>
+        </div>
+        
+        <div style="margin-top: 6px;">
+            <button id="signinbtn" onclick="location.href=''">Sign Up</button>
+            <button id="loginbtn" onclick="location.href=''">Log In</button>
+        </div>
+    </nav>
+
+    <div class="mainimg">
+        <img src="Effortless Investing.png" alt="">
+    </div>
+
+    <div class="mainsec">
+        <h1 id="h1title">Effortless<br>Investing</h1> 
+        <h4>Empowering Your Financial Horizon</h4>
+
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum..
+        </p>
+
+        <div class="mainbutton">
+            <button type="submit">Get Started</button>
+        </div>
+
+        <h5></h5>
+    </div>
+
+</body>
+</html>
